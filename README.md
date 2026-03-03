@@ -1,36 +1,96 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Fixoid – AI Solutions Website
+
+The official website for **Fixoid**, showcasing our AI-powered projects, services, and team. Built with Next.js, Tailwind CSS, and Framer Motion.
+
+## Tech Stack
+
+- **Framework:** [Next.js 16](https://nextjs.org/) (App Router)
+- **Language:** TypeScript
+- **Styling:** [Tailwind CSS 4](https://tailwindcss.com/)
+- **Animations:** [Framer Motion](https://www.framer.com/motion/)
+- **Icons:** [Lucide React](https://lucide.dev/)
+- **Theming:** [next-themes](https://github.com/pacocoursey/next-themes) (dark/light mode)
+
+## Prerequisites
+
+Make sure you have the following installed:
+
+- [Node.js](https://nodejs.org/) (v18.18 or later)
+- [npm](https://www.npmjs.com/) (comes with Node.js)
 
 ## Getting Started
 
-First, run the development server:
+1. **Clone the repository**
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+   ```bash
+   git clone git@github.com:fixoid-ai/website.git
+   cd website
+   ```
+
+2. **Install dependencies**
+
+   ```bash
+   npm install
+   ```
+
+3. **Run the development server**
+
+   ```bash
+   npm run dev
+   ```
+
+4. **Open in browser**
+
+   Visit [http://localhost:3000](http://localhost:3000) to view the website.
+
+   The page auto-updates as you edit files.
+
+## Available Scripts
+
+| Command         | Description                          |
+| --------------- | ------------------------------------ |
+| `npm run dev`   | Start the development server         |
+| `npm run build` | Create an optimized production build |
+| `npm run start` | Start the production server          |
+| `npm run lint`  | Run ESLint to check for code issues  |
+
+## Project Structure
+
+```
+website/
+├── app/                  # Next.js App Router pages and layouts
+│   ├── layout.tsx        # Root layout (fonts, theme provider)
+│   ├── page.tsx          # Home page
+│   └── globals.css       # Global styles
+├── components/           # React components
+│   ├── ui/               # Reusable UI components
+│   ├── hero.tsx          # Hero section
+│   ├── about.tsx         # About section
+│   ├── services.tsx      # Services section
+│   ├── portfolio.tsx     # Portfolio / projects section
+│   ├── team.tsx          # Team section
+│   ├── testimonials.tsx  # Client testimonials
+│   └── ...
+├── lib/                  # Utility functions
+├── public/               # Static assets (logo, SVGs)
+└── package.json          # Dependencies and scripts
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Deployment
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Vercel (Recommended)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Deploy instantly with [Vercel](https://vercel.com/new?utm_medium=default-template&filter=next.js):
 
-## Learn More
+1. Push the repository to GitHub
+2. Import the project on Vercel
+3. Vercel auto-detects Next.js and deploys
 
-To learn more about Next.js, take a look at the following resources:
+### Self-Hosted
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npm run build
+npm run start
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The production server runs on port 3000 by default. Set the `PORT` environment variable to change it.
