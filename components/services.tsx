@@ -1,7 +1,6 @@
 "use client"
 import { motion, Variants } from "framer-motion";
 import { Bot, Eye, Languages, BarChart3, Cloud, Lightbulb } from "lucide-react"
-import { motion } from "framer-motion"
 import { GlowingEffect } from "@/components/ui/glowing-effect"
 
 const services = [
