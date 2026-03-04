@@ -1,12 +1,17 @@
 "use client"
 
 import { Shield, RefreshCw, Cpu } from "lucide-react"
+import { motion, Variants } from "framer-motion" 
 import { motion } from "framer-motion"
 
-const fadeUp = {
-  hidden: { opacity: 0, y: 30 },
-  visible: { opacity: 1, y: 0, transition: { duration: 0.6, ease: "easeOut" } },
-}
+const fadeUp: Variants = {
+  hidden: { opacity: 0, y: 50 },
+  visible: { 
+    opacity: 1, 
+    y: 0, 
+    transition: { duration: 0.5, ease: "easeOut" } 
+  }
+};
 
 export function About() {
   return (
