@@ -2,7 +2,6 @@
 
 import { Shield, RefreshCw, Cpu } from "lucide-react"
 import { motion, Variants } from "framer-motion" 
-import { motion } from "framer-motion"
 
 const fadeUp: Variants = {
   hidden: { opacity: 0, y: 50 },
