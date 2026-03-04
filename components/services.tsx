@@ -1,5 +1,5 @@
 "use client"
-
+import { motion, Variants } from "framer-motion";
 import { Bot, Eye, Languages, BarChart3, Cloud, Lightbulb } from "lucide-react"
 import { motion } from "framer-motion"
 import { GlowingEffect } from "@/components/ui/glowing-effect"
@@ -43,14 +43,18 @@ const services = [
   },
 ]
 
-const cardVariants = {
-  hidden: { opacity: 0, y: 30 },
+const cardVariants: Variants = {
+  hidden: { opacity: 0, y: 50 },
   visible: (i: number) => ({
     opacity: 1,
     y: 0,
-    transition: { duration: 0.5, delay: i * 0.1, ease: "easeOut" },
+    transition: {
+      duration: 0.6,
+      delay: i * 0.2,
+      ease: [0.25, 0.1, 0.25, 1], // ✅ fixed
+    },
   }),
-}
+};
 
 export function Services() {
   return (
