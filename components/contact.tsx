@@ -51,7 +51,7 @@ export function Contact() {
               </div>
               <div>
                 <div className="text-sm font-semibold text-foreground">Email Us</div>
-                <a href="mailto:hello@fixoid.com" className="text-sm text-muted-fg hover:text-primary transition-colors">hello@fixoid.com</a>
+                <a href="mailto:fixoid.ai@gmail.com" className="text-sm text-muted-fg hover:text-primary transition-colors">fixoid.ai@gmail.com</a>
               </div>
             </div>
             <div className="flex items-center gap-4 p-5 bg-card border border-border rounded-xl hover:border-primary/20 transition-colors">
@@ -60,7 +60,7 @@ export function Contact() {
               </div>
               <div>
                 <div className="text-sm font-semibold text-foreground">Call Us</div>
-                <a href="tel:+15551234567" className="text-sm text-muted-fg hover:text-primary transition-colors">+1 (555) 123-4567</a>
+                <a href="tel:+923116931188" className="text-sm text-muted-fg hover:text-primary transition-colors">+92 311 6931188</a>
               </div>
             </div>
             <div className="flex items-center gap-4 p-5 bg-card border border-border rounded-xl hover:border-primary/20 transition-colors">
@@ -69,7 +69,7 @@ export function Contact() {
               </div>
               <div>
                 <div className="text-sm font-semibold text-foreground">Visit Us</div>
-                <p className="text-sm text-muted-fg">123 Innovation Drive, Suite 400<br />San Francisco, CA 94105</p>
+                <p className="text-sm text-muted-fg">Lahore, Pakistan</p>
               </div>
             </div>
             <div className="flex gap-2.5 pt-2">

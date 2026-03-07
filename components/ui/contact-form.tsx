@@ -60,10 +60,10 @@ export function ContactForm({ onClose }: ContactFormProps) {
             <p className="text-sm text-gray-500 pb-8 text-center">
               Or just reach out manually to us at{" "}
               <a
-                href="mailto:hello@fixoid.com"
+                href="mailto:fixoid.ai@gmail.com"
                 className="text-indigo-600 hover:underline"
               >
-                hello@fixoid.com
+                fixoid.ai@gmail.com
               </a>
             </p>
 

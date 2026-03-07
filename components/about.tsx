@@ -78,17 +78,18 @@ export function About() {
           >
             <span className="text-xs font-semibold uppercase tracking-[3px] text-primary font-mono">About Us</span>
             <h2 className="text-3xl sm:text-4xl font-extrabold mt-4 mb-6 text-foreground leading-tight">
-              Pioneering AI Solutions<br />Since <span className="gradient-text">2022</span>
+              Pioneering AI Solutions<br />Since <span className="gradient-text">2025</span>
             </h2>
             <p className="text-muted-fg mb-4 leading-relaxed">
-              Fixoid was founded with a singular mission: to democratize artificial intelligence for
-              businesses of all sizes. We believe that AI shouldn&apos;t be a luxury reserved for tech
-              giants — it should be accessible, practical, and transformative for every organization.
+              Fixoid was founded with a clear mission: to make artificial intelligence accessible to
+              businesses of all sizes. We believe AI shouldn&apos;t be a luxury reserved for tech
+              giants — it should be practical, scalable, and transformative for every organization.
             </p>
             <p className="text-muted-fg mb-8 leading-relaxed">
-              Our team of data scientists, ML engineers, and AI researchers work at the intersection of
-              cutting-edge research and real-world application. We don&apos;t just build models — we build
-              solutions that integrate seamlessly into your operations.
+              Our team of data scientists, machine learning engineers, and AI specialists works at the
+              intersection of cutting-edge research and real-world business challenges. We don&apos;t just
+              build models — we create intelligent solutions that seamlessly integrate into your operations,
+              driving efficiency, insights, and growth.
             </p>
 
             <div className="flex flex-col gap-5">

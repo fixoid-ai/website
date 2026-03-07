@@ -7,38 +7,38 @@ const services = [
   {
     icon: Bot,
     title: "Machine Learning",
-    desc: "Custom ML models for prediction, classification, and recommendation systems that learn from your data and improve over time.",
+    desc: "Custom machine learning models designed for prediction, classification, and intelligent recommendation systems. Our solutions learn from your data and continuously improve to deliver more accurate insights over time.",
     tags: ["Predictive Analytics", "Recommendation Engines", "Anomaly Detection"],
   },
   {
     icon: Eye,
     title: "Computer Vision",
-    desc: "Advanced image and video analysis solutions including object detection, facial recognition, and quality inspection systems.",
+    desc: "Powerful image and video analysis solutions that enable machines to see, understand, and interpret visual data for automation and intelligent decision-making.",
     tags: ["Object Detection", "Image Classification", "OCR Systems"],
   },
   {
     icon: Languages,
     title: "Natural Language Processing",
-    desc: "Text analysis, chatbots, sentiment analysis, and document processing powered by state-of-the-art language models.",
-    tags: ["Chatbots & Assistants", "Sentiment Analysis", "Text Summarization"],
+    desc: "Transform unstructured text into meaningful insights with AI-powered language solutions for communication, automation, and intelligent document processing.",
+    tags: ["Chatbots & Virtual Assistants", "Sentiment Analysis", "Text Summarization"],
   },
   {
     icon: BarChart3,
     title: "Data Analytics",
-    desc: "Transform raw data into actionable insights with advanced analytics platforms, dashboards, and BI integrations.",
+    desc: "Turn raw data into clear, actionable insights with advanced analytics platforms, interactive dashboards, and seamless business intelligence integrations.",
     tags: ["Business Intelligence", "Data Visualization", "ETL Pipelines"],
   },
   {
     icon: Cloud,
     title: "MLOps & Deployment",
-    desc: "End-to-end ML pipeline management, model monitoring, and scalable cloud deployment to keep your AI systems running.",
-    tags: ["CI/CD for ML", "Model Monitoring", "Auto-scaling"],
+    desc: "Build reliable and scalable AI systems with end-to-end ML pipeline management, monitoring, and cloud deployment to keep your models running efficiently.",
+    tags: ["CI/CD for Machine Learning", "Model Monitoring", "Auto-Scaling Infrastructure"],
   },
   {
     icon: Lightbulb,
     title: "AI Consulting",
-    desc: "Strategic guidance on AI adoption, feasibility studies, and technology roadmaps aligned with your business goals.",
-    tags: ["Strategy & Roadmap", "Feasibility Studies", "Team Training"],
+    desc: "Strategic AI guidance to help organizations identify opportunities, validate ideas, and build a roadmap for successful AI adoption.",
+    tags: ["AI Strategy & Roadmap", "Feasibility Studies", "Team Training & Enablement"],
   },
 ]
 
@@ -68,7 +68,7 @@ export function Services() {
         >
           <span className="text-xs font-semibold uppercase tracking-[3px] text-primary font-mono">What We Do</span>
           <h2 className="text-3xl sm:text-4xl font-extrabold mt-4 mb-5 text-foreground">
-            AI Services That <span className="gradient-text">Drive Results</span>
+            AI Solutions That <span className="gradient-text">Transform Ideas into Results</span>
           </h2>
           <p className="text-muted-fg max-w-xl mx-auto">
             From strategy to deployment, we offer end-to-end AI services tailored to your unique business challenges.

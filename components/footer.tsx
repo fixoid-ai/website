@@ -18,8 +18,8 @@ const serviceLinks = [
 ]
 
 const connectLinks = [
-  { label: "hello@fixoid.com", href: "mailto:hello@fixoid.com" },
-  { label: "+1 (555) 123-4567", href: "tel:+15551234567" },
+  { label: "fixoid.ai@gmail.com", href: "mailto:fixoid.ai@gmail.com" },
+  { label: "+92 311 6931188", href: "tel:+923116931188" },
   { label: "LinkedIn", href: "#" },
   { label: "Twitter / X", href: "#" },
   { label: "GitHub", href: "#" },

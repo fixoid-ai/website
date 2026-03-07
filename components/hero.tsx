@@ -62,8 +62,8 @@ export function Hero() {
         </h1>
 
         <p className="text-base sm:text-lg text-slate-600 dark:text-slate-300 max-w-2xl mx-auto mb-8 leading-relaxed">
-          We craft bespoke AI solutions that automate processes, uncover insights, and
-          accelerate growth. From concept to deployment, Fixoid is your partner in innovation.
+          Fixoid builds intelligent AI solutions designed to automate workflows, unlock valuable
+          insights, and drive faster growth. From idea to deployment, we turn innovation into real-world impact.
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-3 mb-16">

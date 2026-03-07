@@ -35,10 +35,10 @@ export function CtaSection() {
               Start a Conversation <ArrowRight size={16} />
             </Link>
             <Link
-              href="mailto:hello@fixoid.com"
+              href="mailto:fixoid.ai@gmail.com"
               className="inline-flex items-center px-8 py-4 rounded-full font-semibold border-2 border-white/30 text-white hover:border-white hover:bg-white/10 transition-all"
             >
-              hello@fixoid.com
+              fixoid.ai@gmail.com
             </Link>
           </div>
         </motion.div>
